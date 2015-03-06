@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/preferences-values.xml -->
+    <eat-comment/>
+    <string-array name="labels_ai_strategies">
+		<item>Prediction</item>
+		<item>Exact</item>
+		<item>Follow</item>
+	</string-array>
+    <string-array name="values_ai_strategies">
+		<item>PREDI</item>
+		<item>EXACT</item>
+		<item>FOLLO</item>
+	</string-array>
+    <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Pong</string>
+    <string name="blue_wins">A winner is Player 2!</string>
+    <string name="join_in">Touch to join in!</string>
+    <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/preferences-values.xml -->
+    <eat-comment/>
+    <string name="label_ai_strategy">AI Strategy</string>
+    <string name="label_ball_speed">Ball speed</string>
+    <string name="label_cpu_handicap">AI handicap</string>
+    <string name="label_gameplay">Gameplay</string>
+    <string name="label_lives">Paddle lives</string>
+    <string name="label_muted">Muted</string>
+    <string name="label_sound">Sound</string>
+    <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="new_game">New game</string>
+    <string name="no_players">No players</string>
+    <string name="one_player">One player</string>
+    <string name="pause">Pause</string>
+    <string name="paused">P A U S E D</string>
+    <string name="preferences">Preferences</string>
+    <string name="red_wins">A winner is Player 1!</string>
+    <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/preferences-values.xml -->
+    <eat-comment/>
+    <string name="summary_ai_strategy">Pick how the AI will decide where to move</string>
+    <string name="summary_ball_speed">Starting speed for the ball</string>
+    <string name="summary_cpu_handicap">Pick how much slower the AI is to the player</string>
+    <string name="summary_lives">Starting number of lives</string>
+    <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="two_players">Two players</string>
+</resources>

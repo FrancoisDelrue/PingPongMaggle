@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- French game message translation by Nicolas François -->
+<resources>
+    <string name="app_name">RetroPong</string>
+    <string name="paused">E N  P A U S E</string>
+    
+    <string name="one_player">Un joueur</string>
+    <string name="two_players">Deux joueurs</string>
+    <string name="no_players">Aucun joueur</string>
+    
+    <string name="new_game">Nouveau jeu</string>
+    <string name="red_wins">Le joueur 1 gagne!</string>
+    <string name="blue_wins">Le joueur 2 gagne!</string>
+    
+    <string name="join_in">Touchez pour rejoindre!</string>
+	<string name="pause">Pause</string>
+</resources>

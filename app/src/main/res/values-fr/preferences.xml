@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="labels_ai_strategies">
+        <item>Prediction</item>
+        <item>Exact</item>
+        <item>Suivre</item>
+    </string-array>
+
+
+    <string name="label_sound">Son</string>
+    <string name="label_gameplay">Jeu</string>
+    <string name="label_muted">Sourdine</string>
+    <string name="label_ai_strategy">Strategie IA</string>
+    <string name="label_ball_speed">Vitesse Balle</string>
+    <string name="label_lives">Paddle lives</string>
+    <string name="label_cpu_handicap">Handicape IA</string>
+
+    <string name="summary_ai_strategy">Pick how the AI will decide where to move</string>
+    <string name="summary_ball_speed">Starting speed for the ball</string>
+    <string name="summary_lives">Starting number of lives</string>
+    <string name="summary_cpu_handicap">Pick how much slower the AI is to the player</string>
+</resources>

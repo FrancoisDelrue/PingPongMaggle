@@ -515,6 +515,7 @@ public class PongView extends View implements OnTouchListener, OnKeyListener {
         // Draw ball stuff
         mPaint.setStyle(Style.FILL);
         mPaint.setColor(Color.WHITE);
+        mPaint.setTextSize(100);
         
         mBall.draw(canvas);
         

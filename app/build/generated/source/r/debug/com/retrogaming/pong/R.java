@@ -20,10 +20,9 @@ public final class R {
         public static final int pong=0x7f020002;
     }
     public static final class id {
-        public static final int menu_preferences=0x7f090007;
-        public static final int pong=0x7f090006;
+        public static final int menu_preferences=0x7f090006;
+        public static final int pong=0x7f090005;
         public static final int title_banner=0x7f090000;
-        public static final int title_btnNoPlayer=0x7f090005;
         public static final int title_btnOnePlayer=0x7f090003;
         public static final int title_btnTwoPlayer=0x7f090004;
         public static final int title_buttonHolder=0x7f090001;

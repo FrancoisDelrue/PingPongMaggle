@@ -14,7 +14,7 @@
 	</string-array>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name">Pong</string>
+    <string name="app_name">RetroPong</string>
     <string name="blue_wins">A winner is Player 2!</string>
     <string name="join_in">Touch to join in!</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/preferences-values.xml -->

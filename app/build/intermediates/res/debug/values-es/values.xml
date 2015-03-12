@@ -2,7 +2,7 @@
 <resources>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values-es/strings.xml -->
     <eat-comment/>
-    <string name="app_name">Pong</string>
+    <string name="app_name">RetroPong</string>
     <string name="blue_wins">¡Un ganador es Azúl!</string>
     <string name="by_line">por Paul Kilgo</string>
     <string name="join_in">¡Toque para jugar!</string>

@@ -19,7 +19,7 @@
     <string name="label_cpu_handicap">Handicape IA</string>
     <string name="label_gameplay">Jeu</string>
     <string name="label_lives">Paddle lives</string>
-    <string name="label_muted">Sourdine</string>
+    <string name="label_muted">Son</string>
     <string name="label_sound">Son</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values-fr/strings.xml -->
     <eat-comment/>
@@ -31,10 +31,10 @@
     <string name="red_wins">Le joueur 1 gagne!</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values-fr/preferences.xml -->
     <eat-comment/>
-    <string name="summary_ai_strategy">Pick how the AI will decide where to move</string>
-    <string name="summary_ball_speed">Starting speed for the ball</string>
-    <string name="summary_cpu_handicap">Pick how much slower the AI is to the player</string>
-    <string name="summary_lives">Starting number of lives</string>
+    <string name="summary_ai_strategy">Choisir la methode de mouvement de l IA</string>
+    <string name="summary_ball_speed">Choisir la vitesse de la balle</string>
+    <string name="summary_cpu_handicap">Choisir la vitesse de l IA</string>
+    <string name="summary_lives">Nombre de vie</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values-fr/strings.xml -->
     <eat-comment/>
     <string name="two_players">Deux joueurs</string>

@@ -34,7 +34,7 @@ public class PongView extends View implements OnTouchListener, OnKeyListener {
 	
 	public static final int
 		STARTING_LIVES = 1,
-		PLAYER_PADDLE_SPEED = 30;
+		PLAYER_PADDLE_SPEED = 50;
 	
 
 	private State mCurrentState = State.Running;

@@ -30,6 +30,23 @@ public class MainActivity extends Activity {
                     }
                 });
 
+        this.findViewById(R.id.imageView5)
+                        .setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                Intent i = new Intent(MainActivity.this, Construction.class);
+                                startActivity(i);
+                            }
+                        });
+
+        this.findViewById(R.id.imageView6)
+                .setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(MainActivity.this, Construction.class);
+                        startActivity(i);
+                    }
+                });
 
     }
 

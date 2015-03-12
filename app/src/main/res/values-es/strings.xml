@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Spanish game messages translation by Paul Kilgo -->
 <resources>
-    <string name="app_name">Pong</string>
+    <string name="app_name">RetroPong</string>
     <string name="by_line">por Paul Kilgo</string>
     <string name="paused">E N   P A U S A</string>
     

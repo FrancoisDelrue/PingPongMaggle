@@ -4,7 +4,8 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:padding="5dp"
-	android:orientation="vertical">
+	android:orientation="vertical"
+    android:background="#333">
 
 
 	<ImageView
@@ -12,7 +13,7 @@
 		android:layout_gravity="center_horizontal"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:src="@drawable/pong">
+        android:src="@drawable/pong">
 
 	</ImageView>
 
@@ -22,41 +23,34 @@
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content">
 
-		<LinearLayout
-			android:id="@+id/title_buttonList"
-			android:layout_gravity="center_horizontal|center_vertical"
-			android:layout_width="wrap_content"
-			android:orientation="vertical"
-			android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
 
-			<Button
-				android:text="@string/one_player"
-				android:id="@+id/title_btnOnePlayer"
-				android:width="220dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content">
-
-			</Button>
-
-			<Button
-				android:text="@string/two_players"
-				android:id="@+id/title_btnTwoPlayer"
-				android:width="220dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content">
-
-			</Button>
-
-            <!--<Button
-                android:text="@string/no_players"
-                android:id="@+id/title_btnNoPlayer"
-                android:width="220dp"
+            <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:id="@+id/title_btnTwoPlayer"
+                android:layout_gravity="center_horizontal|top"
+                android:src="@drawable/joueur2"
+                android:width="220dp"
+                android:layout_marginBottom="192dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/title_btnOnePlayer" />
 
-            </Button>
-            -->
-        </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_btnOnePlayer"
+                android:layout_gravity="center"
+                android:src="@drawable/joueur1"
+                android:width="220dp"
+                android:layout_marginBottom="72dp"
+                android:layout_above="@+id/title_btnTwoPlayer"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
     </FrameLayout>
 
 

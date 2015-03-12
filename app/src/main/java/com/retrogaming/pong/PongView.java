@@ -951,7 +951,7 @@ public class PongView extends View implements OnTouchListener, OnKeyListener {
 		}
 		
 		public static final double BOUND = Math.PI / 9;
-		public static final float SPEED = 9.0f;
+		public static final float SPEED = 25.0f;
 		public static final int RADIUS = 20;
 		public static final double SALT = 4 * Math.PI / 9;
 	}

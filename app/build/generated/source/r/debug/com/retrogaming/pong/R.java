@@ -15,22 +15,42 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_menu_preferences=0x7f020000;
-        public static final int icon=0x7f020001;
-        public static final int pong=0x7f020002;
+        public static final int alien=0x7f020000;
+        public static final int alien2=0x7f020001;
+        public static final int fleur=0x7f020002;
+        public static final int ic_menu_preferences=0x7f020003;
+        public static final int icon=0x7f020004;
+        public static final int joueur1=0x7f020005;
+        public static final int joueur1_bloc_nom=0x7f020006;
+        public static final int joueur2=0x7f020007;
+        public static final int joueur2_bloc_nom=0x7f020008;
+        public static final int logo=0x7f020009;
+        public static final int nombre_de_balle=0x7f02000a;
+        public static final int pacman_menu_principal=0x7f02000b;
+        public static final int pong=0x7f02000c;
+        public static final int pong_menu_principal=0x7f02000d;
+        public static final int space_invaders_menu_principale=0x7f02000e;
+        public static final int taille_du_paddle=0x7f02000f;
+        public static final int vitesse=0x7f020010;
     }
     public static final class id {
-        public static final int menu_preferences=0x7f090006;
-        public static final int pong=0x7f090005;
+        public static final int imageView=0x7f090004;
+        public static final int imageView2=0x7f090009;
+        public static final int imageView3=0x7f090005;
+        public static final int imageView4=0x7f090006;
+        public static final int imageView5=0x7f090007;
+        public static final int imageView6=0x7f090008;
+        public static final int menu_preferences=0x7f09000b;
+        public static final int pong=0x7f09000a;
         public static final int title_banner=0x7f090000;
         public static final int title_btnOnePlayer=0x7f090003;
-        public static final int title_btnTwoPlayer=0x7f090004;
+        public static final int title_btnTwoPlayer=0x7f090002;
         public static final int title_buttonHolder=0x7f090001;
-        public static final int title_buttonList=0x7f090002;
     }
     public static final class layout {
         public static final int act_title=0x7f030000;
-        public static final int pong_view=0x7f030001;
+        public static final int activity_main=0x7f030001;
+        public static final int pong_view=0x7f030002;
     }
     public static final class menu {
         public static final int game_menu=0x7f080000;

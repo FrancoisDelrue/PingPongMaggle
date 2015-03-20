@@ -21,14 +21,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.retrogaming.pong.PongPreferencesActivity" />
-        <activity android:name="com.retrogaming.pong.Pong" />
-        <activity android:name="com.retrogaming.pong.GameActivity" />
-        <activity android:name="com.retrogaming.pong.NamePlayer" />
-        <activity android:name="com.retrogaming.pong.Score" />
+        <activity
+            android:name="com.retrogaming.pong.PongPreferencesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.retrogaming.pong.Pong"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.retrogaming.pong.GameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.retrogaming.pong.NamePlayer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.retrogaming.pong.Score"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.retrogaming.pong.Construction"
-            android:label="Coming Soon" />
+            android:label="Coming Soon"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

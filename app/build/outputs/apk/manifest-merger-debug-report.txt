@@ -39,35 +39,47 @@ ADDED from AndroidManifest.xml:9:5
 		ADDED from AndroidManifest.xml:9:15
 activity#com.retrogaming.pong.PongPreferencesActivity
 ADDED from AndroidManifest.xml:12:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:13:13
 	android:name
 		ADDED from AndroidManifest.xml:12:13
 activity#com.retrogaming.pong.Pong
-ADDED from AndroidManifest.xml:13:9
+ADDED from AndroidManifest.xml:14:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:15:13
 	android:name
-		ADDED from AndroidManifest.xml:13:19
+		ADDED from AndroidManifest.xml:14:19
 activity#com.retrogaming.pong.GameActivity
-ADDED from AndroidManifest.xml:14:3
+ADDED from AndroidManifest.xml:16:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:17:13
 	android:name
-		ADDED from AndroidManifest.xml:14:13
+		ADDED from AndroidManifest.xml:16:13
 activity#com.retrogaming.pong.NamePlayer
-ADDED from AndroidManifest.xml:15:9
+ADDED from AndroidManifest.xml:18:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:19:13
 	android:name
-		ADDED from AndroidManifest.xml:15:19
+		ADDED from AndroidManifest.xml:18:19
 activity#com.retrogaming.pong.Score
-ADDED from AndroidManifest.xml:16:9
-	android:name
-		ADDED from AndroidManifest.xml:16:19
-activity#com.retrogaming.pong.Construction
-ADDED from AndroidManifest.xml:17:9
-	android:label
-		ADDED from AndroidManifest.xml:17:48
-	android:name
-		ADDED from AndroidManifest.xml:17:19
-uses-sdk
-ADDED from AndroidManifest.xml:19:2
-	android:minSdkVersion
-		ADDED from AndroidManifest.xml:19:12
-uses-permission#android.permission.WAKE_LOCK
-ADDED from AndroidManifest.xml:20:2
+ADDED from AndroidManifest.xml:20:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:21:13
 	android:name
 		ADDED from AndroidManifest.xml:20:19
+activity#com.retrogaming.pong.Construction
+ADDED from AndroidManifest.xml:22:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:23:13
+	android:label
+		ADDED from AndroidManifest.xml:22:48
+	android:name
+		ADDED from AndroidManifest.xml:22:19
+uses-sdk
+ADDED from AndroidManifest.xml:25:2
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:25:12
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:26:2
+	android:name
+		ADDED from AndroidManifest.xml:26:19

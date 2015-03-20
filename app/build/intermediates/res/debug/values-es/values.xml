@@ -3,14 +3,13 @@
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="app_name">RetroPong</string>
-    <string name="blue_wins">¡Un ganador es Azúl!</string>
+    <string name="blue_wins">¡%s es Azúl!</string>
     <string name="by_line">por Paul Kilgo</string>
     <string name="join_in">¡Toque para jugar!</string>
-    <string name="no_players">Sin jugadores</string>
     <string name="one_player">Uno jugador</string>
     <string name="pause">Hacer pausa</string>
     <string name="paused">E N   P A U S A</string>
     <string name="preferences">Preferencias</string>
-    <string name="red_wins">¡Un ganador es Rojo!</string>
+    <string name="red_wins">¡%s es Rojo!</string>
     <string name="two_players">Dos jugadores</string>
 </resources>

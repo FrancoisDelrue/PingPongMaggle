@@ -7,12 +7,12 @@
     
     <string name="one_player">Uno jugador</string>
     <string name="two_players">Dos jugadores</string>
-    <string name="no_players">Sin jugadores</string>
+
     
     <string name="preferences">Preferencias</string>
     
-    <string name="red_wins">¡Un ganador es Rojo!</string>
-    <string name="blue_wins">¡Un ganador es Azúl!</string>
+    <string name="red_wins">¡%s es Rojo!</string>
+    <string name="blue_wins">¡%s es Azúl!</string>
     
     <string name="join_in">¡Toque para jugar!</string>
 	<string name="pause">Hacer pausa</string>

@@ -39,7 +39,10 @@ public class PongView extends View implements OnTouchListener, OnKeyListener {
 
 	private State mCurrentState = State.Running;
 	private State mLastState = State.Stopped;
-	public static enum State { Running, Stopped}
+    private String mPlayer1;
+    private String mPlayer2;
+
+    public static enum State { Running, Stopped}
 
 	/** Flag that marks this view as initialized */
 	private boolean mInitialized = false;
@@ -577,13 +580,14 @@ public class PongView extends View implements OnTouchListener, OnKeyListener {
         if(!gameRunning()) {
         	mPaint.setColor(Color.WHITE);
         	String s = "You both lose";
-        	
+
         	if(!mBlue.living()) {
-        		s = context.getString(R.string.red_wins);
+        		s = String.format(context.getString(R.string.red_wins),mPlayer1);
+
         		mPaint.setColor(Color.WHITE);
         	}
         	else if(!mRed.living()) {
-        		s = context.getString(R.string.blue_wins);
+                s = String.format(context.getString(R.string.blue_wins),mPlayer2);
         		mPaint.setColor(Color.WHITE);
         	}
 
@@ -713,9 +717,11 @@ public class PongView extends View implements OnTouchListener, OnKeyListener {
 		return false;
 	}
 
-	public void setPlayerControl(boolean red, boolean blue) {
+	public void setPlayerControl(boolean red, boolean blue, String player1, String player2) {
 		mRedPlayer = red;
 		mBluePlayer = blue;
+        mPlayer1=player1;
+        mPlayer2=player2;
 	}
 
 	public void resume() {
@@ -893,10 +899,6 @@ public class PongView extends View implements OnTouchListener, OnKeyListener {
 		
 		/**
 		 * Normalizes a ball's position after it has hit a paddle.
-		 * @param r The paddle the ball has hit.
-		 */
-		protected void normalize(Paddle p) {
-			// Quit if the ball is outside the width of the paddle
 			if(x < p.getLeft() || x > p.getRight()) {
 				return;
 			}

@@ -12,6 +12,8 @@
 		<activity android:name=".PongPreferencesActivity" />
         <activity android:name=".Pong" />
 		<activity android:name=".GameActivity" />
+        <activity android:name=".NamePlayer" />
+        <activity android:name=".Score" />
         <activity android:name=".Construction" android:label="Coming Soon"/>
 	</application>
 	<uses-sdk android:minSdkVersion="11" />

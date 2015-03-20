@@ -24,6 +24,8 @@
         <activity android:name="com.retrogaming.pong.PongPreferencesActivity" />
         <activity android:name="com.retrogaming.pong.Pong" />
         <activity android:name="com.retrogaming.pong.GameActivity" />
+        <activity android:name="com.retrogaming.pong.NamePlayer" />
+        <activity android:name="com.retrogaming.pong.Score" />
         <activity
             android:name="com.retrogaming.pong.Construction"
             android:label="Coming Soon" />

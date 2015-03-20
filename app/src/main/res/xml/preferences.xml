@@ -33,4 +33,5 @@
 			android:dialogMessage="@string/label_lives"
 			android:defaultValue="0" android:max="9" />
 	</PreferenceCategory>
+
 </PreferenceScreen>

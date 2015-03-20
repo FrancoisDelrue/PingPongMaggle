@@ -49,17 +49,25 @@ activity#com.retrogaming.pong.GameActivity
 ADDED from AndroidManifest.xml:14:3
 	android:name
 		ADDED from AndroidManifest.xml:14:13
-activity#com.retrogaming.pong.Construction
+activity#com.retrogaming.pong.NamePlayer
 ADDED from AndroidManifest.xml:15:9
-	android:label
-		ADDED from AndroidManifest.xml:15:48
 	android:name
 		ADDED from AndroidManifest.xml:15:19
-uses-sdk
-ADDED from AndroidManifest.xml:17:2
-	android:minSdkVersion
-		ADDED from AndroidManifest.xml:17:12
-uses-permission#android.permission.WAKE_LOCK
-ADDED from AndroidManifest.xml:18:2
+activity#com.retrogaming.pong.Score
+ADDED from AndroidManifest.xml:16:9
 	android:name
-		ADDED from AndroidManifest.xml:18:19
+		ADDED from AndroidManifest.xml:16:19
+activity#com.retrogaming.pong.Construction
+ADDED from AndroidManifest.xml:17:9
+	android:label
+		ADDED from AndroidManifest.xml:17:48
+	android:name
+		ADDED from AndroidManifest.xml:17:19
+uses-sdk
+ADDED from AndroidManifest.xml:19:2
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:19:12
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:20:2
+	android:name
+		ADDED from AndroidManifest.xml:20:19

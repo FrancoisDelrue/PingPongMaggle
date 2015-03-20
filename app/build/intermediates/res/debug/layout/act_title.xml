@@ -35,9 +35,9 @@
                 android:layout_gravity="center_horizontal|top"
                 android:src="@drawable/joueur2"
                 android:width="220dp"
-                android:layout_marginBottom="192dp"
-                android:layout_alignParentBottom="true"
-                android:layout_alignLeft="@+id/title_btnOnePlayer" />
+                android:layout_below="@+id/title_btnOnePlayer"
+                android:layout_alignLeft="@+id/title_btnOnePlayer"
+                android:layout_marginTop="53dp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -46,9 +46,27 @@
                 android:layout_gravity="center"
                 android:src="@drawable/joueur1"
                 android:width="220dp"
-                android:layout_marginBottom="72dp"
-                android:layout_above="@+id/title_btnTwoPlayer"
-                android:layout_centerHorizontal="true" />
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="65dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:layout_below="@+id/title_btnTwoPlayer"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="102dp"
+                android:src="@drawable/name" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/score"
+                android:layout_below="@+id/imageView7"
+                android:layout_alignLeft="@+id/imageView7" />
 
         </RelativeLayout>
 

@@ -7,10 +7,11 @@
         <item>Exact</item>
         <item>Suivre</item>
     </string-array>
+    <string name="Player1">Joueur 1</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values-fr/strings.xml -->
     <eat-comment/>
     <string name="app_name">RetroPong</string>
-    <string name="blue_wins">Le joueur 2 gagne!</string>
+    <string name="blue_wins">%s gagne!</string>
     <string name="join_in">Touchez pour rejoindre!</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values-fr/preferences.xml -->
     <eat-comment/>
@@ -20,15 +21,15 @@
     <string name="label_gameplay">Jeu</string>
     <string name="label_lives">Paddle lives</string>
     <string name="label_muted">Son</string>
-    <string name="label_sound">Son</string>
+    <string name="label_sound">Mute</string>
+    <string name="name">Nom des Joueurs</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values-fr/strings.xml -->
     <eat-comment/>
     <string name="new_game">Nouveau jeu</string>
-    <string name="no_players">Aucun joueur</string>
     <string name="one_player">Un joueur</string>
     <string name="pause">Pause</string>
     <string name="paused">E N  P A U S E</string>
-    <string name="red_wins">Le joueur 1 gagne!</string>
+    <string name="red_wins">%s gagne!</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values-fr/preferences.xml -->
     <eat-comment/>
     <string name="summary_ai_strategy">Choisir la methode de mouvement de l IA</string>

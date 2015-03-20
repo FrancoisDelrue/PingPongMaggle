@@ -14,8 +14,9 @@
 	</string-array>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="Player1">Player 1</string>
     <string name="app_name">RetroPong</string>
-    <string name="blue_wins">A winner is Player 2!</string>
+    <string name="blue_wins">A winner is %s !</string>
     <string name="join_in">Touch to join in!</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/preferences-values.xml -->
     <eat-comment/>
@@ -28,13 +29,13 @@
     <string name="label_sound">Sound</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="name">Player Name</string>
     <string name="new_game">New game</string>
-    <string name="no_players">No players</string>
     <string name="one_player">One player</string>
     <string name="pause">Pause</string>
     <string name="paused">P A U S E D</string>
     <string name="preferences">Preferences</string>
-    <string name="red_wins">A winner is Player 1!</string>
+    <string name="red_wins">A winner is %s !</string>
     <!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/values/preferences-values.xml -->
     <eat-comment/>
     <string name="summary_ai_strategy">Pick how the AI will decide where to move</string>

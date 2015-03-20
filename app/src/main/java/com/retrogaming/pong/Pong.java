@@ -28,9 +28,9 @@ public class Pong extends Activity {
 	
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch(item.getItemId()) {
-		case R.id.menu_preferences:
-			Intent i = new Intent(this, PongPreferencesActivity.class);
-			startActivity(i);
+            case R.id.menu_preferences:
+			    Intent i = new Intent(this, PongPreferencesActivity.class);
+			    startActivity(i);
 			break;
 		}
 		return false;
@@ -38,7 +38,28 @@ public class Pong extends Activity {
 	
 	
 	protected void setListeners () {
-		
+
+
+
+        this.findViewById(R.id.imageView7)
+                .setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(Pong.this, NamePlayer.class);
+                        startActivity(i);
+                    }
+                });
+
+        this.findViewById(R.id.imageView8)
+                .setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(Pong.this, Score.class);
+                        startActivity(i);
+                    }
+                });
+
+
 		this.findViewById(R.id.title_btnOnePlayer)
 		.setOnClickListener(new OnClickListener() {
 			@Override
@@ -48,7 +69,7 @@ public class Pong extends Activity {
 		});
 		
 		this.findViewById(R.id.title_btnTwoPlayer)
-		.setOnClickListener(new OnClickListener() {
+	    .setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				startGame(true,true);

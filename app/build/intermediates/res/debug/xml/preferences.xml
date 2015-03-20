@@ -33,4 +33,5 @@
 			android:dialogMessage="@string/label_lives"
 			android:defaultValue="0" android:max="9" />
 	</PreferenceCategory>
+
 </PreferenceScreen><!-- From: file:/D:/Ingesup/Bachelor%202/Android/Projets/android-pong-master11/app/src/main/res/xml/preferences.xml -->

@@ -9,7 +9,7 @@
     </string-array>
 
 
-    <string name="label_sound">Son</string>
+    <string name="label_sound">Mute</string>
     <string name="label_gameplay">Jeu</string>
     <string name="label_muted">Son</string>
     <string name="label_ai_strategy">Strategie IA</string>
@@ -21,4 +21,6 @@
     <string name="summary_ball_speed">Choisir la vitesse de la balle</string>
     <string name="summary_lives">Nombre de vie</string>
     <string name="summary_cpu_handicap">Choisir la vitesse de l IA</string>
+    <string name="name">Nom des Joueurs</string>
+    <string name="Player1">Joueur 1</string>
 </resources>
